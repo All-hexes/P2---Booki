@@ -11,11 +11,15 @@
 
 Booki a French tourism booking website
 
-- Mockup integration with HTML5 & CSS3
+- Mockup integration
 
 - Responsive all screens
 
 - Constraint : No framework
+
+# TECH
+
+- HTML5 & CSS3
 
 
 Link : https://all-hexes.github.io/P2---Booki/
