@@ -11,10 +11,11 @@
 
 
 
-Intégration de maquettes avec HTML5 & CSS3
+- Mockup integration with HTML5 & CSS3
 
-Responsive, desktop, tablette, mobile
+- Responsive all screens
 
-Contrainte : Aucun framework
+- Constraint : No framework
 
-Lien : https://all-hexes.github.io/P2---Booki/
+
+Link : https://all-hexes.github.io/P2---Booki/
