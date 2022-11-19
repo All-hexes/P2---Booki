@@ -9,7 +9,7 @@
 888   d88P Y88..88P Y88..88P 888 "88b 888                                                   
 8888888P"   "Y88P"   "Y88P"  888  888 888</pre>
 
-Booki a French booking website
+Booki a French tourism booking website
 
 - Mockup integration with HTML5 & CSS3
 
