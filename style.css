@@ -1,0 +1,551 @@
+/*-._.-*"*-._.-*'U n i v e r s e l'*-._.-*"*-._.-*/
+body {
+font-family: 'Raleway', sans-serif;
+font-size: 1em;
+max-width: 1345px;
+}
+
+body a {
+	font-size: 0.95em;
+}
+em
+{
+	font-weight: bold;
+	font-style: normal;
+}
+
+h2 {
+	font-size: 1.2em;
+}
+
+body h4 {
+	margin: 0px;
+}
+
+a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    text-decoration: none;
+    color: #0065FC;
+} 
+
+/*-._.-*"*-._.-*'Formulaire'*-._.-*"*-._.-*/
+
+.formulaire {
+	display: flex;
+	align-items: baseline;
+	margin-bottom:  15px;
+}
+
+.fa-location-dot {
+	background-color: #f2f2f2;
+	padding: 12px;
+	border-radius: 10px 0px 0px 10px;
+}
+
+::placeholder {
+	font-weight: bold; /* = txt du formulaire prérempli */
+	color:black;
+}
+
+.bouton {
+    height: 40px;
+    background: #0065FC;
+    border: 1px solid #0065FC;
+	border-radius: 0px 10px 10px 0px;
+    font-size: 1em;
+    text-align: center;
+    padding: 8px 8px 8px 8px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*-._.-*"*-._.-*'NAV'*-._.-*"*-._.-*/
+
+header ul { /* = liste filtres */
+	list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+	margin-bottom: -13px;
+}
+
+header p i {
+	margin-right: 15px;
+	color: #0065FC;
+	border: 1px solid #f2f2f2;
+    padding: 7px 10px 7px 11px;
+	border-radius: 50%;
+	font-size:13px;
+}
+
+header p {
+	margin-bottom: 15px;
+}
+
+.i-line {
+	margin: 0px;
+}
+
+.square {
+	display: inline-block;
+	height: 6px;
+	width: 45px;
+	padding-bottom: 24px;
+}
+
+.filtres p, .filtres a {
+	font-weight: bold;
+	color: black;
+}
+
+.filtres i {
+	color: #0065FC;
+	margin-right: 15px;
+	border: 1px solid #DEEBFF;
+	background-color: #DEEBFF;
+	border-radius: 30px;
+	padding: 18px;
+	margin-left: -3px;
+}
+
+.filtres li {
+	padding-top: 0px;
+	padding-right: 18px;
+	padding-bottom: 0px;
+	border: 2px solid #f2f2f2;
+	border-radius: 30px;
+	margin: 13px ;
+}
+
+.filtres li:hover {
+	padding-top: 0px;
+	padding-right: 18px;
+	padding-bottom: 0px;
+	border: 2px solid #DEEBFF;
+	background-color: white;
+	color: #0065FC;
+	border-radius: 30px;
+	margin: 13px ;
+}
+
+.filtres a:hover {
+	color: #0065FC;
+}
+
+.ul-align {
+	margin-top:-13px;
+}
+
+/*-._.-*"*-._.-*'*-._.-*"*-._.-*'DESKTOP'*-._.-*"*-._.-*'*-._.-*"*-._.-*/
+
+body {
+	margin:auto;
+}
+
+/*-._.-*"*-._.-*'H E A D E R'*-._.-*"*-._.-*/
+
+header {
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-bottom: 23px;
+}
+
+.titre { /* = logo + herbergements & activités */
+	display:  flex;
+	justify-content: space-between;
+	align-items:  flex-start;
+	margin: 6px;
+}
+
+.macro_menu { /* = herbergements & activités */
+	display: flex;
+	padding-top: 15px;
+}
+
+.macro_menu a { /* = liens herbergements & activités */
+	color: #9c9c9c;
+	padding-top: 34px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+#actif {
+	border-top: 3px solid #0065FC;
+	color: #0065FC;
+}
+
+.macro_menu li {  /* = liste herbergements & activités */
+	margin : 15px;
+}
+
+.logo img {
+	height: 40%; 
+	min-height: 33px; 
+	width: 40%;
+	min-width: 101px;
+	margin-left: 24px;
+	margin-bottom: 10px;
+	margin-top: 27px;
+}
+
+.filtres {  /* = ul + p */
+	display: flex;
+}
+
+.fa-magnifying-glass {
+	visibility: hidden;
+}
+
+
+/*-._.-*"*-._.-*'MAIN'*-._.-*"*-._.-*/
+
+main {
+	padding-left: 35px;
+	padding-right: 35px;
+}
+
+
+.first_dash {
+	display: flex;
+}
+
+.section_principale {
+	background-color: #f2f2f2;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	border-radius: 15px 15px 15px 15px;
+	margin-right: 20px ;
+	padding: 15px 15px 15px 30px;
+}
+
+.section_principale a {
+	font-weight: bold;
+	color: black;
+}
+
+.bloc_info {
+	margin-left: 14px;
+	line-height: 33%;
+}
+
+.hebergement_marseille {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: auto;
+}
+
+.bloc_hebergement {
+	width: 28%;
+	min-width:225px;
+	height: 200px;
+	background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 6px 6px 5px #d9d9d9;
+    margin: 15px;
+    padding: 3px;
+	cursor: pointer;
+}
+
+.bloc_hebergement i {
+	color: #f2f2f2;
+	font-size: 15px;
+	width: 19px;
+}
+
+.active_star i {  /* gère aussi les étoiles du <aside> */
+	color: #0065FC;
+	width: 19px;
+	font-size:15px;
+}
+
+.bloc_hebergement a {
+	font-weight: bold;
+	color: black;
+}
+
+.bloc_hebergement img {
+	object-fit: cover;
+	width: 100%;
+	height: 55%;
+	border-radius: 15px 15px 0px 0px;
+}
+
+/*-._.-*"*-._.-*'A S I D E'*-._.-*"*-._.-*/
+
+.structure_aside {
+	background-color: #f2f2f2;
+	border-radius: 15px;
+
+	min-width: 339px;
+	padding: 15px;
+	height:100%
+}
+
+.surpanneau_aside {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.panneau_aside {
+	display: flex;
+	flex-direction: column;
+}
+
+.bloc_aside {
+	display: flex;
+	background-color: white;
+	border-radius: 15px;
+	margin-top: 12px;
+	margin-bottom: 20px;
+	margin-left: 12px;
+	margin-right:  12px;
+	height: 149px;
+	width: 323px;
+	padding: 3px;
+	box-shadow: 6px 6px 5px #d9d9d9;
+	cursor: pointer;
+}
+
+aside article img {
+	object-fit: cover;
+	height: 149px;
+	width: 140px;
+	border-radius: 15px 0px 0px 15px;
+}
+
+img-aside {
+	width:40%;
+	object-fit: fill;
+}
+
+.info_aside {
+	margin-left: 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding-top:14px;
+}
+
+.info_aside p {
+	margin-top:0px;
+	margin-bottom: 28px;
+}
+
+.info_aside h3 {
+	margin-bottom: 10px;
+}
+
+.info_aside .starline {
+	padding-top:11px;
+}
+
+aside i {
+	color: #f2f2f2;
+}
+
+aside h2 i {
+	color: black;
+}
+
+aside h2 {
+	display: flex;
+	justify-content: space-between;
+}
+
+aside a {
+	color: black;
+	font-weight: bold;
+}
+
+.aligneur {
+	padding: 0px 20px 0px 20px;
+}
+
+/*-._.-*"*-._.-*'Section secondaire'*-._.-*"*-._.-*/
+
+.section_secondaire h3 {
+	margin-top: 15px;
+}
+
+.section_secondaire {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.sous_section_second {
+	display: flex;
+}
+
+.panneau-1 {
+	display:flex;
+}
+
+.panneau-2 {
+	display:flex;
+}
+
+.card_2 {
+	display: flex;
+	flex-direction: column;
+	min-height:350px;
+	margin-right:18px;
+}
+
+.card_3 {
+	display: flex;
+	flex-direction: column;
+	min-height:350px;
+}
+
+.card_3 img {
+	object-fit: cover;
+	height: 85%;
+	width: 35%;
+	border-radius: 15px 15px 0px 0px;
+}
+
+.section_secondaire a {
+	color: black;
+	font-weight: bold;
+}
+
+.bloc_activites_100 {
+	height: 350px;
+	width: 96%;
+	background-color: white;
+	border-radius: 15px;
+	box-shadow: 6px 6px 5px #d9d9d9;
+	cursor: pointer;
+	margin-right:18px;
+	margin-bottom:18px;
+}
+
+.bloc_activites_100 img {
+	object-fit: cover;
+	height: 85%;
+	width: 100%;
+	border-radius: 15px 15px 0px 0px;
+}
+
+
+.bloc_activites_60 {
+	height: 198px;
+	width: 300px;
+	border-radius: 15px;
+	box-shadow: 6px 6px 5px #d9d9d9;
+	cursor: pointer;
+	margin-bottom:25px;
+}
+
+.bloc_activites_60 img {
+	object-fit: cover;
+	height: 73%;
+	width: 100%;
+	border-radius: 15px 15px 0px 0px;
+}
+
+.bloc_activites_40 {
+	height: 126px;
+	width: 300px;
+	border-radius: 15px;
+	box-shadow: 6px 6px 5px #d9d9d9;
+	cursor: pointer;
+}
+
+.bloc_activites_40 img {
+	object-fit: cover;
+	height: 59%;
+	width: 100%;
+	border-radius: 15px 15px 0px 0px;
+}
+
+.bloc_activites_45 {
+	height: 151px;
+	width: 300px;
+	border-radius: 15px;
+	box-shadow: 6px 6px 5px #d9d9d9;
+	cursor: pointer;
+	margin-bottom:25px;
+}
+
+.bloc_activites_45 img {
+	object-fit: cover;
+	height: 63%;
+	width: 100%;
+	border-radius: 15px 15px 0px 0px;
+}
+
+.bloc_activites_55 {
+	height: 172px;
+	width: 300px;
+	border-radius: 15px;
+	box-shadow: 6px 6px 5px #d9d9d9;
+	cursor: pointer;
+}
+
+.bloc_activites_55 img {
+	object-fit: cover;
+	height: 70%;
+	width: 100%;
+	border-radius: 15px 15px 0px 0px;
+}
+
+.section_secondaire h3 {
+	margin-left: 15px;
+}
+
+/*-._.-*"*-._.-*'FOOTER'*-._.-*"*-._.-*/
+
+footer {
+	display: flex;
+	background-color: #f2f2f2;
+}
+
+.bloc_footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-top: 45px;
+	margin-left : 100px;
+	margin-right: 100px;
+	margin-bottom: 10px;
+	line-height: 35px;
+}
+
+footer ul {
+	list-style-type: none;
+	padding: 0px;
+}
+
+footer a {
+	color: black;
+}
+
+
+@media all and (min-width:992px) and (max-width:1323px) {
+
+
+	body {
+		font-size: 0.8em;
+	}
+
+	.bloc_hebergement {
+		width: 9%;
+		min-width:179px;
+		height: 200px;
+		background-color: #ffffff;
+		border-radius: 15px;
+		box-shadow: 6px 6px 5px #d9d9d9;
+		margin: 15px;
+		padding: 3px;
+		cursor: pointer;
+	}
+	
+}

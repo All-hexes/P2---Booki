@@ -1,0 +1,431 @@
+/*-._.-*"*-._.-*'*-._.-*"*-._.-*'MOBILE'*-._.-*"*-._.-*'*-._.-*"*-._.-*/
+
+    body {
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.1em;
+        min-width: 400px;
+    }
+    
+    h2 {
+        font-size: 1.3em;
+    }
+        /* HEADER */
+    
+    header {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-bottom: 0px;
+    }
+    
+    .info-header {
+        margin: 10px 10px 0px 10px;
+    }
+    
+    .bloc-header {
+        margin: 15px 15px 0px 15px;
+    }
+    
+    .bloc-header p {
+        margin-bottom: 30px;
+    }
+    .logo {
+        display: flex;
+        justify-content: center;
+        padding-left:22px;
+    }
+    
+    .logo img {
+        width:30%;
+        margin: 15px 0px 40px 30px;
+    }
+    
+    .titre { /* = logo + herbergements & activités */
+        display:  flex;
+        align-items:stretch;
+        flex-direction: column;
+        margin:0px;
+    }
+    
+    .macro_menu { /* = herbergements & activités */
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        padding-top: 15px;
+    }
+    
+    
+    .macro_menu ul {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    
+    .macro_menu a {  /* = liens herbergements & activités */
+        color: #9c9c9c;
+        border-bottom: 3px solid #f2f2f2;
+        padding-bottom: 15px;
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-top:0px;
+    }
+    
+    .macro_menu li {
+        display: flex;
+        width: 50%;
+        justify-content: center;
+        margin : 0px;
+    }
+    
+    .macro_menu li a {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+    .macro_menu ul, header ul {
+        padding-left: 0px;
+        margin-bottom: 15px;
+    }
+    
+    #actif{
+        border-bottom: 3px solid #0065FC;
+        color: #0065FC;
+        border-top:none;
+    }
+    
+    header h3 {
+        margin: 40px 0px 0px 0px;
+    }
+    .formulaire {
+        display: flex;
+        justify-content:center ;
+        align-items: baseline;
+        width: 100%;
+    }
+    
+    form {
+        width:70%;
+    }
+    
+    .bouton {
+        visibility: hidden;
+        padding: 0px;
+        height: 0px;
+        width: 0px;
+    }
+    
+    input #recherche {
+        height:34px;
+        width:105%;
+    }
+    
+    .fa-magnifying-glass {
+        visibility: initial;
+        color: white;
+        background-color: #0065FC;
+        height: 17px;
+        width: 17px;
+        border-radius: 13px;
+        text-align: center;
+        cursor: pointer;
+        padding:12px;
+    }
+    
+    p.annonce {
+        display: flex;
+        align-items: baseline;
+    }
+
+    .filtres {
+        display: inline;
+    }
+    
+    /* > > > MAIN < < < */
+
+    main {
+        padding: 0px;
+    }
+    
+    .first_dash {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .first_dash:nth-child(1) {
+        order:1;
+    }
+    
+    .section_principale {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+    
+    .section_principale a {
+        font-weight: bold;
+        color: black;
+    
+    }
+    
+    .section_principale h2 {
+        margin-left: 35px;
+    }
+    
+    .bloc_info {
+        line-height: 19%;
+        margin-left: 14px;
+    }
+    
+    .hebergement_marseille {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    
+    .bloc_hebergement {
+        width: 100%;
+        height: 200px;
+        background-color: #ffffff;
+        border-radius: 15px;
+        box-shadow: 6px 6px 5px #d9d9d9;
+        margin: 15px;
+        padding: 3px;
+        cursor: pointer;
+    }
+    
+    .bloc_hebergement i {
+        color: #f2f2f2;
+    }
+    
+    .active_star i { /* gère aussi les étoiles du <aside> */
+        color: #0065FC;
+    }
+    
+    .bloc_hebergement a {
+        font-weight: bold;
+        color: black;
+    }
+    
+    .bloc_hebergement img {
+        object-fit: cover;
+        width: 100%;
+        height: 55%;
+        border-radius: 15px 15px 0px 0px;
+    }
+    
+    /* > > > A S I D E < < < */
+    
+    .structure_aside {
+        background-color: #f2f2f2;
+        width: 100%;
+        border-radius: 0px;
+        padding:0px;
+    }
+    
+    .surpanneau_aside {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 30px;
+    }
+    
+    .panneau_aside {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .bloc_aside {
+        display: flex;
+        background-color: white;
+        border-radius: 15px;
+        margin-top: 6px;
+        margin-bottom: 6px;
+        margin-left: 0px;
+        margin-right:  0px;
+        height: 195px;
+        width:100%;
+        min-width: 390px;
+        padding: 3px;
+        box-shadow: 6px 6px 5px #d9d9d9;
+        cursor: pointer;
+    }
+    
+    aside article img {
+        object-fit: cover;
+        height: 195px;
+        width: 202px;
+        border-radius: 15px 0px 0px 15px;
+    }
+    
+    .info_aside {
+        margin-left: 14px;
+        margin-right: 14px;
+    }
+    
+    aside i {
+        color: #f2f2f2;
+    }
+    
+    aside h2 i {
+        color: black;
+    }
+    
+    aside h2 {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    
+    aside a {
+        color: black;
+        font-weight: bold;
+    }
+    
+    .starline {
+        margin-top:54px;
+        font-size: 15px;
+    }
+    
+    .starline-2 {
+        font-size: 15px;
+    }
+    
+    /* section secondaire */
+    
+    .section_secondaire h3 {
+        margin-top: 15px;
+    }
+    
+    .section_secondaire {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    
+    .section_secondaire h2 {
+        margin-left: 20px;
+    }
+    
+    .sous_section_second {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .section_secondaire a {
+        color: black;
+        font-weight: bold;
+    }
+
+    .panneau-1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .panneau-2 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .card_2, .card_3 {
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+    
+    .bloc_activites_100 {
+        height: 220px;
+        width: 90%;
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 6px 6px 5px #d9d9d9;
+        margin:20px;
+        cursor: pointer;
+    }
+    
+    .bloc_acti img {
+        object-fit: cover;
+        height: 75%;
+        width: 100%;
+        border-radius: 15px 15px 0px 0px;
+    }
+    
+    .bloc_activites_60 {
+        height: 220px;
+        width: 90%;
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 6px 6px 5px #d9d9d9;
+        margin:20px;
+        cursor: pointer;
+    }
+    
+    .bloc_activites_40 {
+        height: 220px;
+        width: 90%;
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 6px 6px 5px #d9d9d9;
+        margin:20px;
+        cursor: pointer;
+    }
+    
+    .bloc_activites_55 {
+        height: 220px;
+        width: 90%;
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 6px 6px 5px #d9d9d9;
+        margin:20px;
+        cursor: pointer;
+    }
+    
+    .bloc_activites_45 {
+        height: 220px;
+        width: 90%;
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 6px 6px 5px #d9d9d9;
+        margin:20px;
+        cursor: pointer;
+    }
+    
+    
+    .section_secondaire h3 {
+        margin-left: 25px;
+    }
+    
+    /* FOOTER */
+    
+    footer {
+        display: flex;
+        flex-direction: column;
+        background-color: #f2f2f2;
+    }
+    
+    .bloc_footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 35px;
+        margin-left : 20px;
+        line-height: 35px;
+    }
+    
+    footer ul {
+        list-style-type: none;
+        padding: 0px;
+    }
+    
+    footer a {
+        color: black;
+    }
+
+@media all and (max-width:300px) {
+
+body {
+    max-width:300px;
+    font-size: 0.95em;
+}
+}

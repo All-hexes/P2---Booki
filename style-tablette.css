@@ -1,0 +1,380 @@
+/*-._.-*"*-._.-*'*-._.-*"*-._.-*'Tablette'*-._.-*"*-._.-*'*-._.-*"*-._.-*/
+
+	body {
+		margin:auto;
+		font-size:0.9em;
+	}
+	
+	/* > > > H E A D E R < < < */
+	
+	header {
+		padding-left: 30px;
+		padding-right: 30px;
+		margin-bottom: 23px;
+	}
+	
+	.titre { /* = logo + herbergements & activités */
+		display:  flex;
+		justify-content: space-between;
+		align-items:  flex-start;
+		margin:  6px;
+	}
+	
+	.macro_menu { /* = herbergements & activités */
+		display: flex;
+		padding-top: 15px;
+	}
+	
+	.macro_menu a { /* = liens herbergements & activités */
+		color: #9c9c9c;
+		padding-top: 34px;
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+	
+	#actif {
+		border-top: 3px solid #0065FC;
+		color: #0065FC;
+	}
+	
+	.macro_menu li {  /* = liste herbergements & activités */
+		margin : 15px;
+	}
+	
+	.logo img {
+		height: 40%; 
+		min-height: 33px; 
+		width: 40%;
+		min-width: 101px;
+		margin-left: 24px;
+		margin-bottom: 10px;
+		margin-top: 27px;
+	}
+	
+	.filtres {  /* = ul + p */
+		display: flex;
+	}
+	
+	.fa-magnifying-glass {
+		visibility: hidden;
+	}
+	
+	
+	/* > > > MAIN < < < */
+	
+	main {
+		padding-left: 35px;
+		padding-right: 35px;
+	}
+	
+	.first_dash {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	
+	.first_dash:nth-child(1) {
+		order:1;
+	}
+	
+	.section_principale {
+		background-color: #f2f2f2;
+		display: flex;
+		flex-wrap: wrap;
+		border-radius: 15px 15px 15px 15px;;
+		margin-top: 20px;
+		padding: 0px;
+	}
+
+    .section_principale h2 {
+        padding:20px 0px 20px 35px;
+    }
+	
+	.section_principale a {
+		font-weight: bold;
+		color: black;
+	}
+	
+	.bloc_info {
+		line-height: 33%;
+		margin-left: 14px;
+	}
+	
+	.hebergement_marseille {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		margin: auto;
+	}
+	
+	.bloc_hebergement {
+		width: 235px;
+		height: 200px;
+		background-color: #ffffff;
+		border-radius: 15px;
+		box-shadow: 6px 6px 5px #d9d9d9;
+		margin: 15px;
+		padding: 3px;
+	}
+	
+	.bloc_hebergement i {
+		color: #f2f2f2;
+		font-size: 15px;
+		width: 19px;
+	}
+	
+	.active_star i {  /* gère aussi les étoiles du <aside> */
+		color: #0065FC;
+		width: 19px;
+		font-size:15px;
+	}
+	
+	.bloc_hebergement a {
+		font-weight: bold;
+		color: black;
+	}
+	
+	.bloc_hebergement img {
+		object-fit: cover;
+		width: 235px;
+		height: 55%;
+		border-radius: 15px 15px 0px 0px;
+	}
+	
+	/* > > > A S I D E < < < */
+
+	aside h3 {
+    margin:0px;
+	padding:0px;
+	}
+
+	aside p {
+		margin:0px;
+		padding:0px;
+		}
+	
+	.structure_aside {
+		background-color: #f2f2f2;
+		border-radius: 15px;
+		min-width: 339px;
+		padding: 15px;
+		height:100%
+	}
+	
+	.surpanneau_aside {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.panneau_aside {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	
+	.bloc_aside {
+		display: flex;
+		background-color: white;
+		border-radius: 15px;
+		margin-top: 12px;
+		margin-bottom: 20px;
+		margin-left: 12px;
+		margin-right:  12px;
+		height: 149px;
+		width: 237px;
+		padding: 3px;
+		box-shadow: 6px 6px 5px #d9d9d9;
+	}
+	
+	aside article img {
+		object-fit: cover;
+		height: 149px;
+		width: 100px;
+		border-radius: 15px 0px 0px 15px;
+	}
+	
+	.info_aside {
+		margin-left: 14px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+        padding:5px;
+	}
+
+    .info_aside h3 {
+        margin:0px;
+    }
+
+    .info_aside p {
+        margin:0px;
+    }
+	
+	.info_aside .starline {
+		padding-top:0px;
+	}
+	
+	aside i {
+		color: #f2f2f2;
+	}
+	
+	aside h2 i {
+		color: black;
+	}
+	
+	aside h2 {
+		display: flex;
+		justify-content: space-between;
+	}
+	
+	aside a {
+		color: black;
+		font-weight: bold;
+	}
+	
+	.aligneur {
+		padding: 0px 20px 0px 20px;
+	}
+	
+	/* > > > Section secondaire */
+
+	.section_secondaire h3 {
+		margin-top: 15px;
+	}
+	
+	.section_secondaire {
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+	
+	.sous_section_second {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		flex-wrap: wrap;
+	
+	}
+	
+	.card_2, .card_3 {
+		margin:0px;
+	
+	}
+	
+	.card_3 img {
+		object-fit: cover;
+		height: 85%;
+		width: 35%;
+		border-radius: 15px 15px 0px 0px;
+	}
+	
+	.section_secondaire a {
+		color: black;
+		font-weight: bold;
+	}
+	
+	.bloc_activites_100 {
+		height: 350px;
+		width: 300px;
+		background-color: white;
+		border-radius: 15px;
+		box-shadow: 6px 6px 5px #d9d9d9;
+		margin-bottom: 10px;
+	}
+	
+	.bloc_activites_100 img {
+		object-fit: cover;
+		height: 85%;
+		width: 100%;
+		border-radius: 15px 15px 0px 0px;
+	}
+	
+	
+	.bloc_activites_60 {
+		height: 198px;
+		width: 300px;
+		border-radius: 15px;
+		box-shadow: 6px 6px 5px #d9d9d9;
+	}
+	
+	.bloc_activites_60 img {
+		object-fit: cover;
+		height: 73%;
+		width: 100%;
+		border-radius: 15px 15px 0px 0px;
+	}
+	
+	.bloc_activites_40 {
+		height: 126px;
+		width: 300px;
+		border-radius: 15px;
+		box-shadow: 6px 6px 5px #d9d9d9;
+		margin-bottom: 13px;
+	}
+	
+	.bloc_activites_40 img {
+		object-fit: cover;
+		height: 59%;
+		width: 100%;
+		border-radius: 15px 15px 0px 0px;
+	}
+	
+	.bloc_activites_45 {
+		height: 151px;
+		width: 300px;
+		border-radius: 15px;
+		box-shadow: 6px 6px 5px #d9d9d9;
+	}
+	
+	.bloc_activites_45 img {
+		object-fit: cover;
+		height: 63%;
+		width: 100%;
+		border-radius: 15px 15px 0px 0px;
+	}
+	
+	.bloc_activites_55 {
+		height: 172px;
+		width: 300px;
+		border-radius: 15px;
+		box-shadow: 6px 6px 5px #d9d9d9;
+	}
+	
+	.bloc_activites_55 img {
+		object-fit: cover;
+		height: 70%;
+		width: 100%;
+		border-radius: 15px 15px 0px 0px;
+	}
+	
+	.section_secondaire h3 {
+		margin-left: 15px;
+	}
+	
+	/* FOOTER */
+	
+	footer {
+		display: flex;
+		flex-wrap: wrap;
+		background-color: #f2f2f2;
+	}
+	
+	.bloc_footer {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		margin-top: 45px;
+		margin-left : 60px;
+		margin-right: 100px;
+		margin-bottom: 10px;
+		line-height: 35px;
+	}
+	
+	footer ul {
+		list-style-type: none;
+		padding: 0px;
+	}
+	
+	footer a {
+		color: black;
+	}
