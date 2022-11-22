@@ -29,6 +29,8 @@ Booki a French tourism booking website
 
 (mobile)
 
-<img width="375" alt="maquette mobile" src="https://user-images.githubusercontent.com/104685771/203189767-9c6952b6-fb5e-4be5-ac1e-c64abb4a443d.png">
+<img width="375" alt="maquette mobile" src="https://user-images.githubusercontent.com/104685771/203189992-493f76e4-f6e9-4eb6-b9c7-0edfbcb73e59.png">
 
-Link : https://all-hexes.github.io/P2---Booki/
+# DEPLOYMENT LINK
+
+https://all-hexes.github.io/P2---Booki/
