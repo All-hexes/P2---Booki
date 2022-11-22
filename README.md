@@ -11,7 +11,7 @@
 
 Booki a French tourism booking website
 
-- Mockup integration
+- Mockups integration
 
 - Responsive all screens
 
@@ -21,5 +21,14 @@ Booki a French tourism booking website
 
 - HTML5 & CSS3
 
+# MOCKUPS
+
+(desktop)
+
+<img width="432" alt="maquette desktop" src="https://user-images.githubusercontent.com/104685771/203189745-a9d90354-41c3-47ca-b68f-9a61dd5177b6.png">
+
+(mobile)
+
+<img width="375" alt="maquette mobile" src="https://user-images.githubusercontent.com/104685771/203189767-9c6952b6-fb5e-4be5-ac1e-c64abb4a443d.png">
 
 Link : https://all-hexes.github.io/P2---Booki/
